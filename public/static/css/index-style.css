@@ -1,0 +1,73 @@
+body {
+    background-color: #0A192F;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.navbar-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 20vh;
+    background-color: #16213E;
+}
+
+.navbar-l-header {
+    font-size: 5vh;
+    position: relative;
+    margin: 1vh;
+}
+
+.login-btn {
+    position: absolute;
+    border: black;
+    box-shadow: rgba(255, 255, 255, 0.24) 3px 3px 15px;
+    border-radius: 35vh;
+    width: 10vh;
+    height: 3vh;
+    font-size: large;
+    background-color: #16213E;
+    color: white;
+    left: 10%;
+}
+
+.login-btn:hover {
+    transition: background-color, box-shadow, color 0.2s;
+    background-color: rgb(30, 45, 87);
+    box-shadow: rgba(43, 43, 43, 0.76) 3px 3px 15px;
+    color: rgb(199, 199, 199);
+}
+.login-btn:not(hover) {
+    transition: background-color, box-shadow, color 0.2s;
+    background-color: #16213E;
+    box-shadow: rgba(255, 255, 255, 0.24) 3px 3px 15px;
+    color: white;
+}
+
+.admin-panel {
+    position: absolute;
+    border: black;
+    box-shadow: rgba(255, 255, 255, 0.24) 3px 3px 15px;
+    border-radius: 35vh;
+    width: 15vh;
+    height: 3vh;
+    font-size: large;
+    background-color: #3d3e16;
+    color: white;
+    top: 20%;
+    left: 10%;
+}
+
+.admin-panel:hover {
+    transition: background-color, box-shadow, color 0.2s;
+    background-color: rgb(30, 45, 87);
+    box-shadow: rgba(43, 43, 43, 0.76) 3px 3px 15px;
+    color: rgb(199, 199, 199);
+}
+.admin-panel:not(hover) {
+    transition: background-color, box-shadow, color 0.2s;
+    background-color: #3d3e16;
+    box-shadow: rgba(255, 255, 255, 0.24) 3px 3px 15px;
+    color: white;
+}
