@@ -13,8 +13,8 @@ function randomString(length) {
 
 
 const message = {
-    "admin": ["admin123", randomString(16)],
-    "wojtek": ["1234", randomString(16)],
+    admin: ["admin123", randomString(16)],
+    wojtek: ["1234", randomString(16)],
 };
 
 fs.writeFileSync(
